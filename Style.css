@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: #2d414b;
+}
+#Heading {
+  margin-top: 80px;
+  padding: 10px;
+  font-family: Finger paint, cursive;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #F2C14E;
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+#Restart{
+  margin: 40px auto 5px auto;
+  border: none;
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  font-family: Finger paint, cursive;
+  text-align: center;
+  cursor: pointer;
+  color: #F2C14E;
+  background-color: #2d414b;
+}
+
+#BOX {
+	width: 50%;
+	height: 500px;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	grid-template-columns: repeat(3, auto);
+    margin:auto;
+}
+
+#BOX>div{
+    font-family: Finger paint, cursive;
+    font-size: 80px;
+    color: #f2c14e;
+    text-align: center;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    
+}
+
+#C0{
+    border-bottom:5px solid #f2c14e;
+    border-right:5px solid #F2C14E;
+}
+
+#C1{
+    border-bottom:5px solid #F2C14E;
+    border-right:5px solid #F2C14E;
+}
+#C2{
+    border-bottom:5px solid #F2C14E;
+    
+}
+#C3{
+    border-bottom:5px solid #F2C14E;
+    border-right:5px solid #F2C14E;
+}
+#C4{
+    border-bottom:5px solid #F2C14E;
+    border-right:5px solid #F2C14E;
+}
+#C5{
+    border-bottom:5px solid #F2C14E;
+    
+}
+#C6{
+    
+    border-right:5px solid #F2C14E;
+}
+#C7{
+    
+    border-right:5px solid #F2C14E;
+}
+#C8{
+    
+}
+
+#restart:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color:#4ce223;
+}
+#Resultboard{
+    font-family: Finger paint, cursive;
+    font-size: 30px;
+    color:#F2C14E;
+}
